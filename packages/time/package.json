@@ -1,9 +1,9 @@
 {
-  "name": "@xmpp/time",
+  "name": "@xmpp-infister/time",
   "description": "XMPP Date and Time Profiles for JavaScript",
-  "repository": "github:xmppjs/xmpp.js",
-  "homepage": "https://github.com/xmppjs/xmpp.js/tree/master/packages/time",
-  "bugs": "http://github.com/xmppjs/xmpp.js/issues",
+  "repository": "github:infister/xmpp.js",
+  "homepage": "https://github.com/infister/xmpp.js/tree/master/packages/time",
+  "bugs": "http://github.com/infister/xmpp.js/issues",
   "version": "0.8.0",
   "license": "ISC",
   "keywords": [

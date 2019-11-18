@@ -1,9 +1,9 @@
 {
-  "name": "@xmpp/starttls",
+  "name": "@xmpp-infister/starttls",
   "description": "XMPP STARTTLS for JavaScript",
-  "repository": "github:xmppjs/xmpp.js",
-  "homepage": "https://github.com/xmppjs/xmpp.js/tree/master/packages/starttls",
-  "bugs": "http://github.com/xmppjs/xmpp.js/issues",
+  "repository": "github:infister/xmpp.js",
+  "homepage": "https://github.com/infister/xmpp.js/tree/master/packages/starttls",
+  "bugs": "http://github.com/infister/xmpp.js/issues",
   "version": "0.8.0",
   "license": "ISC",
   "keywords": [
@@ -11,7 +11,7 @@
     "STARTTLS"
   ],
   "dependencies": {
-    "@xmpp/xml": "^0.8.0"
+    "@xmpp-infister/xml": "^0.8.0"
   },
   "engines": {
     "node": ">= 10.0.0",

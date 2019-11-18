@@ -31,7 +31,7 @@ async function authenticate(SASL, entity, mechname, credentials) {
     ...credentials,
   }
 
-  return new Promise((resolve, reject) => {
+  return new Promise(async (resolve, reject) => {
     const handler = element => {
       if (element.attrs.xmlns !== NS) {
         return
@@ -66,7 +66,7 @@ async function authenticate(SASL, entity, mechname, credentials) {
         xml(
           'auth',
           {xmlns: NS, mechanism: mech.name},
-          encode(mech.response(creds))
+          encode(await mech.response(creds))
         )
       )
     }

@@ -1,9 +1,9 @@
 {
-  "name": "@xmpp/iq",
+  "name": "@xmpp-infister/iq",
   "description": "XMPP iq for JavaScript",
-  "repository": "github:xmppjs/xmpp.js",
-  "homepage": "https://github.com/xmppjs/xmpp.js/tree/master/packages/iq",
-  "bugs": "http://github.com/xmppjs/xmpp.js/issues",
+  "repository": "github:infister/xmpp.js",
+  "homepage": "https://github.com/infister/xmpp.js/tree/master/packages/iq",
+  "bugs": "http://github.com/infister/xmpp.js/issues",
   "version": "0.8.0",
   "license": "ISC",
   "keywords": [
@@ -17,13 +17,13 @@
     "yarn": ">= 1.0.0"
   },
   "dependencies": {
-    "@xmpp/events": "^0.8.0",
-    "@xmpp/id": "^0.8.0",
-    "@xmpp/middleware": "^0.8.0",
-    "@xmpp/xml": "^0.8.0"
+    "@xmpp-infister/events": "^0.8.0",
+    "@xmpp-infister/id": "^0.8.0",
+    "@xmpp-infister/middleware": "^0.8.0",
+    "@xmpp-infister/xml": "^0.8.0"
   },
   "devDependencies": {
-    "@xmpp/middleware": "^0.3.0"
+    "@xmpp-infister/middleware": "^0.3.0"
   },
   "publishConfig": {
     "access": "public"

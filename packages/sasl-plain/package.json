@@ -1,9 +1,9 @@
 {
-  "name": "@xmpp/sasl-plain",
+  "name": "@xmpp-infister/sasl-plain",
   "description": "XMPP SASL plain for JavaScript",
-  "repository": "github:xmppjs/xmpp.js",
-  "homepage": "https://github.com/xmppjs/xmpp.js/tree/master/packages/sasl-plain",
-  "bugs": "http://github.com/xmppjs/xmpp.js/issues",
+  "repository": "github:infister/xmpp.js",
+  "homepage": "https://github.com/infister/xmpp.js/tree/master/packages/sasl-plain",
+  "bugs": "http://github.com/infister/xmpp.js/issues",
   "version": "0.8.0",
   "license": "ISC",
   "keywords": [

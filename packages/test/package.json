@@ -1,9 +1,9 @@
 {
-  "name": "@xmpp/test",
+  "name": "@xmpp-infister/test",
   "description": "XMPP.js test helpers",
-  "repository": "github:xmppjs/xmpp.js",
-  "homepage": "https://github.com/xmppjs/xmpp.js/tree/master/packages/test",
-  "bugs": "http://github.com/xmppjs/xmpp.js/issues",
+  "repository": "github:infister/xmpp.js",
+  "homepage": "https://github.com/infister/xmpp.js/tree/master/packages/test",
+  "bugs": "http://github.com/infister/xmpp.js/issues",
   "version": "0.8.0",
   "license": "ISC",
   "keywords": [
@@ -15,12 +15,12 @@
     "yarn": ">= 1.0.0"
   },
   "dependencies": {
-    "@xmpp/client": "^0.8.0",
-    "@xmpp/connection": "^0.8.0",
-    "@xmpp/debug": "^0.8.0",
-    "@xmpp/events": "^0.8.0",
-    "@xmpp/jid": "^0.8.0",
-    "@xmpp/xml": "^0.8.0"
+    "@xmpp-infister/client": "^0.8.0",
+    "@xmpp-infister/connection": "^0.8.0",
+    "@xmpp-infister/debug": "^0.8.0",
+    "@xmpp-infister/events": "^0.8.0",
+    "@xmpp-infister/jid": "^0.8.0",
+    "@xmpp-infister/xml": "^0.8.0"
   },
   "publishConfig": {
     "access": "public"
