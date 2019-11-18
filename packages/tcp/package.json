@@ -4,7 +4,7 @@
   "repository": "github:infister/xmpp.js",
   "homepage": "https://github.com/infister/xmpp.js/tree/master/packages/tcp",
   "bugs": "http://github.com/infister/xmpp.js/issues",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "license": "ISC",
   "dependencies": {
     "@xmpp-infister/connection-tcp": "^0.9.2"
