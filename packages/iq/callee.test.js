@@ -1,7 +1,7 @@
 'use strict'
 
 const test = require('ava')
-const {mockClient, promiseSend, mockInput, promiseError} = require('@xmpp/test')
+const {mockClient, promiseSend, mockInput, promiseError} = require('@xmpp-infister/test')
 
 test('empty result when the handler returns true', async t => {
   const xmpp = mockClient()

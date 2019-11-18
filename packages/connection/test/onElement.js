@@ -2,7 +2,7 @@
 
 const test = require('ava')
 const Connection = require('..')
-const xml = require('@xmpp/xml')
+const xml = require('@xmpp-infister/xml')
 
 test.cb('#_onElement', t => {
   t.plan(2)

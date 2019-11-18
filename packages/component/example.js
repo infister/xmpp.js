@@ -2,8 +2,8 @@
 
 'use strict'
 
-const {component, xml} = require('@xmpp/component')
-const debug = require('@xmpp/debug')
+const {component, xml} = require('@xmpp-infister/component')
+const debug = require('@xmpp-infister/debug')
 
 const xmpp = component({
   service: 'xmpp://localhost:5347',

@@ -1,6 +1,6 @@
 'use strict'
 
-const XMPPError = require('@xmpp/error')
+const XMPPError = require('@xmpp-infister/error')
 
 // https://xmpp.org/rfcs/rfc6120.html#streams-error
 

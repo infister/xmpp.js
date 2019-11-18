@@ -2,8 +2,8 @@
 
 const test = require('ava')
 const Connection = require('..')
-const {EventEmitter} = require('@xmpp/events')
-const xml = require('@xmpp/xml')
+const {EventEmitter} = require('@xmpp-infister/events')
+const xml = require('@xmpp-infister/xml')
 
 test('new Connection()', t => {
   const conn = new Connection()

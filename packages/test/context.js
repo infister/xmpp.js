@@ -1,10 +1,10 @@
 'use strict'
 
 const client = require('./client')
-const {promise} = require('@xmpp/events')
-const xml = require('@xmpp/xml')
-const debug = require('@xmpp/debug')
-const JID = require('@xmpp/jid')
+const {promise} = require('@xmpp-infister/events')
+const xml = require('@xmpp-infister/xml')
+const debug = require('@xmpp-infister/debug')
+const JID = require('@xmpp-infister/jid')
 const mockSocket = require('./mockSocket')
 
 module.exports = function context(entity = client()) {

@@ -2,25 +2,25 @@
 
 An XMPP client is an entity that connects to an XMPP server.
 
-`@xmpp/client` package includes a minimal set of features to connect and authenticate securely and reliably.
+`@xmpp-infister/client` package includes a minimal set of features to connect and authenticate securely and reliably.
 
 It supports Node.js, browser and React Native. See [below](#transports) for differences.
 
 ## Install
 
-`npm install @xmpp/client` or `yarn add @xmpp/client`
+`npm install @xmpp-infister/client` or `yarn add @xmpp-infister/client`
 
 ## Setup
 
 ```js
-const {client, xml, jid} = require('@xmpp/client')
+const {client, xml, jid} = require('@xmpp-infister/client')
 ```
 
 or
 
 ```html
 <script
-  src="https://unpkg.com/@xmpp/client@VERSION/dist/xmpp.min.js"
+  src="https://unpkg.com/@xmpp-infister/client@VERSION/dist/xmpp.min.js"
   crossorigin
 ></script>
 ```
@@ -34,7 +34,7 @@ const {client, xml, jid} = window.XMPP
 ## Example
 
 ```js
-const {client, xml} = require('@xmpp/client')
+const {client, xml} = require('@xmpp-infister/client')
 
 const xmpp = client({
   service: 'ws://localhost:5280/xmpp-websocket',
@@ -75,7 +75,7 @@ xmpp.on('online', async address => {
 })
 
 // Debug
-// See also @xmpp/debug https://github.com/xmppjs/xmpp.js/tree/master/packages/debug
+// See also @xmpp-infister/debug https://github.com/xmppjs/xmpp.js/tree/master/packages/debug
 xmpp.on('status', status => {
   console.debug('🛈', 'status', status)
 })
@@ -102,8 +102,8 @@ See [jid package](/packages/jid)
 - `options` <`Object`>
 
   - `service` `<string>` The service to connect to, accepts an URI or a domain.
-    - `domain` lookup and connect to the most secure endpoint using [@xmpp/resolve](/packages/resolve)
-    - `xmpp://hostname:port` plain TCP, may be upgraded to TLS by [@xmpp/starttls](/packages/starttls)
+    - `domain` lookup and connect to the most secure endpoint using [@xmpp-infister/resolve](/packages/resolve)
+    - `xmpp://hostname:port` plain TCP, may be upgraded to TLS by [@xmpp-infister/starttls](/packages/starttls)
     - `xmpps://hostname:port` direct TLS
     - `ws://hostname:port/path` plain WebSocket
     - `wss://hostname:port/path` secure WebSocket
@@ -155,7 +155,7 @@ xmpp.on('status', status => {
 
 ### Event `error`
 
-Emitted when an error occurs. For connection errors, `xmpp` will reconnect on its own using [@xmpp/reconnect](/packages/reconnect) however a listener MUST be attached to avoid uncaught exceptions.
+Emitted when an error occurs. For connection errors, `xmpp` will reconnect on its own using [@xmpp-infister/reconnect](/packages/reconnect) however a listener MUST be attached to avoid uncaught exceptions.
 
 - `<Error>`
 
@@ -243,11 +243,11 @@ Returns a promise that resolves once the stanza is serialized and written to the
 
 ### xmpp.reconnect
 
-See [@xmpp/reconnect](/packages/reconnect).
+See [@xmpp-infister/reconnect](/packages/reconnect).
 
 ## Transports
 
-XMPP supports multiple transports, this table list `@xmpp/client` supported and unsupported transport for each environment.
+XMPP supports multiple transports, this table list `@xmpp-infister/client` supported and unsupported transport for each environment.
 
 |            transport             | protocols  | Node.js | Browser | React Native |
 | :------------------------------: | :--------: | :-----: | :-----: | :----------: |
@@ -274,5 +274,5 @@ PLAIN should only be used over secure WebSocket (`wss://)`, direct TLS (`xmpps:`
 
 <details>
   <summary><strong>Unable to resolve module</strong></summary>
-  <p>If you are using an older React Native version, please require/import <code>@xmpp/client/reat-native</code> instead of <code>@xmpp/client</code>.</p>
+  <p>If you are using an older React Native version, please require/import <code>@xmpp-infister/client/reat-native</code> instead of <code>@xmpp-infister/client</code>.</p>
 </details>

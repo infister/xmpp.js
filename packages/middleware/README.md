@@ -1,20 +1,20 @@
 # middleware
 
-Middleware for `@xmpp/client` and `@xmpp/component`.
+Middleware for `@xmpp-infister/client` and `@xmpp-infister/component`.
 
 Supports Node.js and browsers.
 
 ## Install
 
 ```
-npm install @xmpp/middleware
+npm install @xmpp-infister/middleware
 ```
 
 ## Usage
 
 ```js
-const {Client} = require('@xmpp/client')
-const middleware = require('@xmpp/middlware')
+const {Client} = require('@xmpp-infister/client')
+const middleware = require('@xmpp-infister/middlware')
 
 const client = new Client()
 const app = middleware({entity: client})

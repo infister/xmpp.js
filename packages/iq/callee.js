@@ -6,7 +6,7 @@
  * https://xmpp.org/rfcs/rfc6120.html#stanzas-error
  */
 
-const xml = require('@xmpp/xml')
+const xml = require('@xmpp-infister/xml')
 
 const NS_STANZA = 'urn:ietf:params:xml:ns:xmpp-stanzas'
 

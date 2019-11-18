@@ -2,7 +2,7 @@
 
 /* https://xmpp.org/rfcs/rfc6120.html#stanzas-error */
 
-const XMPPError = require('@xmpp/error')
+const XMPPError = require('@xmpp-infister/error')
 
 class StanzaError extends XMPPError {
   constructor(condition, text, application, type) {

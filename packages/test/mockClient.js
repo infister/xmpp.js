@@ -1,7 +1,7 @@
 'use strict'
 
-const {client} = require('@xmpp/client')
-const Connection = require('@xmpp/connection')
+const {client} = require('@xmpp-infister/client')
+const Connection = require('@xmpp-infister/connection')
 const context = require('./context')
 
 module.exports = function(options) {

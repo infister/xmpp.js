@@ -2,8 +2,8 @@
 
 'use strict'
 
-const {client, xml} = require('@xmpp/client')
-const debug = require('@xmpp/debug')
+const {client, xml} = require('@xmpp-infister/client')
+const debug = require('@xmpp-infister/debug')
 
 const xmpp = client({
   service: 'ws://localhost:5280/xmpp-websocket',

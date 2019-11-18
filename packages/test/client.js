@@ -1,7 +1,7 @@
 'use strict'
 
 const {Client} = require('../client-core')
-const JID = require('@xmpp/jid')
+const JID = require('@xmpp-infister/jid')
 const mockSocket = require('./mockSocket')
 
 module.exports = function client(entity = new Client()) {

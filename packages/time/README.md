@@ -4,12 +4,12 @@ XMPP [Date and Time Profiles](https://xmpp.org/extensions/xep-0082.html) for Jav
 
 ## Install
 
-`npm install @xmpp/time` or `yarn add @xmpp/time`
+`npm install @xmpp-infister/time` or `yarn add @xmpp-infister/time`
 
 ## Usage
 
 ```javascript
-const time = require('@xmpp/time')
+const time = require('@xmpp-infister/time')
 
 time.date() // '2016-11-18'
 time.time() // '20:45:30.221Z'

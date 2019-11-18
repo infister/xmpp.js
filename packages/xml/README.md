@@ -2,14 +2,14 @@
 
 ## Install
 
-Note, if you're using `@xmpp/client` or `@xmpp/component`, you don't need to install `@xmpp/xml` yourself.
+Note, if you're using `@xmpp-infister/client` or `@xmpp-infister/component`, you don't need to install `@xmpp-infister/xml` yourself.
 
-`npm install @xmpp/xml` or `yarn add @xmpp/xml`
+`npm install @xmpp-infister/xml` or `yarn add @xmpp-infister/xml`
 
 ```js
-const xml = require('@xmpp/xml')
-const {xml} = require('@xmpp/client')
-const {xml} = require('@xmpp/component')
+const xml = require('@xmpp-infister/xml')
+const {xml} = require('@xmpp-infister/client')
+const {xml} = require('@xmpp-infister/component')
 ```
 
 ## Writing
@@ -19,7 +19,7 @@ There's 2 methods for writing XML with xmpp.js
 ### factory
 
 ```js
-const xml = require('@xmpp/xml')
+const xml = require('@xmpp-infister/xml')
 
 const recipient = 'user@example.com'
 const days = ['Monday', 'Tuesday', 'Wednesday']
@@ -44,7 +44,7 @@ xml('time', {xmlns: 'urn:xmpp:time'})
 ```js
 /** @jsx xml */
 
-const xml = require('@xmpp/xml')
+const xml = require('@xmpp-infister/xml')
 
 const recipient = 'user@example.com'
 const days = ['Monday', 'Tuesday']

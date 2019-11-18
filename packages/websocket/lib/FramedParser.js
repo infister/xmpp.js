@@ -1,6 +1,6 @@
 'use strict'
 
-const {Parser, Element, XMLError} = require('@xmpp/xml')
+const {Parser, Element, XMLError} = require('@xmpp-infister/xml')
 
 module.exports = class FramedParser extends Parser {
   onStartElement(name, attrs) {

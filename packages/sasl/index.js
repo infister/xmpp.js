@@ -2,7 +2,7 @@
 
 const {encode, decode} = require('./lib/b64')
 const SASLError = require('./lib/SASLError')
-const xml = require('@xmpp/xml')
+const xml = require('@xmpp-infister/xml')
 const SASLFactory = require('saslmechanisms')
 
 // https://xmpp.org/rfcs/rfc6120.html#sasl

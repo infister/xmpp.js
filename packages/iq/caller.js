@@ -1,10 +1,10 @@
 'use strict'
 
-const xid = require('@xmpp/id')
-const StanzaError = require('@xmpp/middleware/lib/StanzaError')
-const {Deferred} = require('@xmpp/events')
-const timeoutPromise = require('@xmpp/events').timeout
-const xml = require('@xmpp/xml')
+const xid = require('@xmpp-infister/id')
+const StanzaError = require('@xmpp-infister/middleware/lib/StanzaError')
+const {Deferred} = require('@xmpp-infister/events')
+const timeoutPromise = require('@xmpp-infister/events').timeout
+const xml = require('@xmpp-infister/xml')
 
 function isReply({name, type}) {
   if (name !== 'iq') return false

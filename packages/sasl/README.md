@@ -1,15 +1,15 @@
 # SASL
 
-SASL Negotiation for `@xmpp/client`.
+SASL Negotiation for `@xmpp-infister/client`.
 
-Included and enabled in `@xmpp/client`.
+Included and enabled in `@xmpp-infister/client`.
 
 ## Usage
 
 ### object
 
 ```js
-const {xmpp} = require('@xmpp/client')
+const {xmpp} = require('@xmpp-infister/client')
 const client = xmpp({credentials: {
   username: 'foo',
   password: 'bar'
@@ -29,7 +29,7 @@ Uses cases:
 - Perform an asynchronous operation to get credentials
 
 ```js
-const {xmpp} = require('@xmpp/client')
+const {xmpp} = require('@xmpp-infister/client')
 const client = xmpp({credentials: authenticate})
 
 async function authenticate(auth, mechanism) {

@@ -1,5 +1,5 @@
 # WebSocket
 
-WebSocket transport for `@xmpp/client`.
+WebSocket transport for `@xmpp-infister/client`.
 
-Included and enabled in `@xmpp/client`.
+Included and enabled in `@xmpp-infister/client`.

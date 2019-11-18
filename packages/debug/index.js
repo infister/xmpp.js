@@ -2,9 +2,9 @@
 
 /* eslint no-console: 0 */
 
-const serialize = require('@xmpp/xml/lib/serialize')
-const parse = require('@xmpp/xml/lib/parse')
-const xml = require('@xmpp/xml')
+const serialize = require('@xmpp-infister/xml/lib/serialize')
+const parse = require('@xmpp-infister/xml/lib/parse')
+const xml = require('@xmpp-infister/xml')
 
 const NS_SASL = 'urn:ietf:params:xml:ns:xmpp-sasl'
 

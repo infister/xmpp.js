@@ -1,8 +1,8 @@
 'use strict'
 
-const Connection = require('@xmpp/connection-tcp')
+const Connection = require('@xmpp-infister/connection-tcp')
 const crypto = require('crypto')
-const xml = require('@xmpp/xml')
+const xml = require('@xmpp-infister/xml')
 
 /*
  * References

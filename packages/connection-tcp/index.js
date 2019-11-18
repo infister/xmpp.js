@@ -1,9 +1,9 @@
 'use strict'
 
 const {Socket} = require('net')
-const Connection = require('@xmpp/connection')
-const {Parser} = require('@xmpp/xml')
-const {parseURI} = require('@xmpp/connection/lib/util')
+const Connection = require('@xmpp-infister/connection')
+const {Parser} = require('@xmpp-infister/xml')
+const {parseURI} = require('@xmpp-infister/connection/lib/util')
 
 const NS_STREAM = 'http://etherx.jabber.org/streams'
 

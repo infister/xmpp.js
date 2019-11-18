@@ -1,6 +1,6 @@
 'use strict'
 
-const jid = require('@xmpp/jid')
+const jid = require('@xmpp-infister/jid')
 const {IRI} = require('iri')
 const querystring = require('querystring')
 

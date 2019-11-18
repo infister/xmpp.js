@@ -1,7 +1,7 @@
 'use strict'
 
 const resolve = require('./resolve')
-const {socketConnect} = require('@xmpp/connection')
+const {socketConnect} = require('@xmpp-infister/connection')
 
 async function fetchURIs(domain) {
   return [

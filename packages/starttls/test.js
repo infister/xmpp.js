@@ -2,7 +2,7 @@
 
 const {mock, stub} = require('sinon')
 const test = require('ava')
-const {mockClient, promise, delay} = require('@xmpp/test')
+const {mockClient, promise, delay} = require('@xmpp-infister/test')
 const tls = require('tls')
 
 test('success', async t => {

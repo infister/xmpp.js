@@ -1,6 +1,6 @@
 'use strict'
 
-const xml = require('@xmpp/xml')
+const xml = require('@xmpp-infister/xml')
 
 // https://tools.ietf.org/html/draft-cridland-xmpp-session-01
 

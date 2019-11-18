@@ -1,6 +1,6 @@
 'use strict'
 
-const xml = require('@xmpp/xml')
+const xml = require('@xmpp-infister/xml')
 const tls = require('tls')
 
 /*

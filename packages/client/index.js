@@ -1,28 +1,28 @@
 'use strict'
 
-const {xml, jid, Client} = require('@xmpp/client-core')
+const {xml, jid, Client} = require('@xmpp-infister/client-core')
 const getDomain = require('./lib/getDomain')
 
-const _reconnect = require('@xmpp/reconnect')
-const _websocket = require('@xmpp/websocket')
-const _tcp = require('@xmpp/tcp')
-const _tls = require('@xmpp/tls')
-const _middleware = require('@xmpp/middleware')
-const _streamFeatures = require('@xmpp/stream-features')
-const _iqCaller = require('@xmpp/iq/caller')
-const _iqCallee = require('@xmpp/iq/callee')
-const _resolve = require('@xmpp/resolve')
+const _reconnect = require('@xmpp-infister/reconnect')
+const _websocket = require('@xmpp-infister/websocket')
+const _tcp = require('@xmpp-infister/tcp')
+const _tls = require('@xmpp-infister/tls')
+const _middleware = require('@xmpp-infister/middleware')
+const _streamFeatures = require('@xmpp-infister/stream-features')
+const _iqCaller = require('@xmpp-infister/iq/caller')
+const _iqCallee = require('@xmpp-infister/iq/callee')
+const _resolve = require('@xmpp-infister/resolve')
 
 // Stream features - order matters and define priority
-const _starttls = require('@xmpp/starttls/client')
-const _sasl = require('@xmpp/sasl')
-const _resourceBinding = require('@xmpp/resource-binding')
-const _sessionEstablishment = require('@xmpp/session-establishment')
+const _starttls = require('@xmpp-infister/starttls/client')
+const _sasl = require('@xmpp-infister/sasl')
+const _resourceBinding = require('@xmpp-infister/resource-binding')
+const _sessionEstablishment = require('@xmpp-infister/session-establishment')
 
 // SASL mechanisms - order matters and define priority
-const scramsha1 = require('@xmpp/sasl-scram-sha-1')
-const plain = require('@xmpp/sasl-plain')
-const anonymous = require('@xmpp/sasl-anonymous')
+const scramsha1 = require('@xmpp-infister/sasl-scram-sha-1')
+const plain = require('@xmpp-infister/sasl-plain')
+const anonymous = require('@xmpp-infister/sasl-anonymous')
 
 function client(options = {}) {
   const {resource, credentials, username, password, ...params} = options

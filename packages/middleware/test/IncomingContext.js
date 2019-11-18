@@ -2,7 +2,7 @@
 
 const test = require('ava')
 const Context = require('../lib/IncomingContext')
-const {JID} = require('@xmpp/test')
+const {JID} = require('@xmpp-infister/test')
 const _Context = require('../lib/Context')
 
 test('is instance of Context', t => {

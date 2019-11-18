@@ -1,8 +1,8 @@
 'use strict'
 
 const Socket = require('./Socket')
-const Connection = require('@xmpp/connection')
-const xml = require('@xmpp/xml')
+const Connection = require('@xmpp-infister/connection')
+const xml = require('@xmpp-infister/xml')
 const FramedParser = require('./FramedParser')
 
 const NS_FRAMING = 'urn:ietf:params:xml:ns:xmpp-framing'

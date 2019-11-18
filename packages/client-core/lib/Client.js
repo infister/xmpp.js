@@ -1,6 +1,6 @@
 'use strict'
 
-const Connection = require('@xmpp/connection')
+const Connection = require('@xmpp-infister/connection')
 
 class Client extends Connection {
   constructor(options) {

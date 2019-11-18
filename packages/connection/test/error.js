@@ -2,7 +2,7 @@
 
 const test = require('ava')
 const Connection = require('..')
-const {EventEmitter} = require('@xmpp/events')
+const {EventEmitter} = require('@xmpp-infister/events')
 
 test('emit error on socket error', t => {
   const conn = new Connection()

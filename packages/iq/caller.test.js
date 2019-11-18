@@ -1,8 +1,8 @@
 'use strict'
 
 const test = require('ava')
-const {mockClient, mockInput} = require('@xmpp/test')
-const StanzaError = require('@xmpp/middleware/lib/StanzaError')
+const {mockClient, mockInput} = require('@xmpp-infister/test')
+const StanzaError = require('@xmpp-infister/middleware/lib/StanzaError')
 
 test.cb('#request', t => {
   const xmpp = mockClient()

@@ -1,6 +1,6 @@
 'use strict'
 
-const {EventEmitter} = require('@xmpp/events')
+const {EventEmitter} = require('@xmpp-infister/events')
 
 class MockSocket extends EventEmitter {
   write(data, cb) {

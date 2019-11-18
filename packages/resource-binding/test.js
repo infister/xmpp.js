@@ -1,7 +1,7 @@
 'use strict'
 
 const test = require('ava')
-const {mockClient, delay} = require('@xmpp/test')
+const {mockClient, delay} = require('@xmpp-infister/test')
 
 test('without resource', async t => {
   const resource = Math.random().toString()

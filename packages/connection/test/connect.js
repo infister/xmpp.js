@@ -2,7 +2,7 @@
 
 const test = require('ava')
 const Connection = require('..')
-const {EventEmitter, promise} = require('@xmpp/events')
+const {EventEmitter, promise} = require('@xmpp-infister/events')
 
 function socket(fn) {
   return class Socket extends EventEmitter {

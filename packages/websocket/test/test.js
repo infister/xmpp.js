@@ -4,7 +4,7 @@ const test = require('ava')
 const ConnectionWebSocket = require('../lib/Connection')
 const Socket = require('../lib/Socket')
 const EventEmitter = require('events')
-const xml = require('@xmpp/xml')
+const xml = require('@xmpp-infister/xml')
 
 test('send() adds jabber:client xmlns', t => {
   const connection = new ConnectionWebSocket()

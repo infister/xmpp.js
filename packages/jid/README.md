@@ -12,12 +12,12 @@ https://en.wikipedia.org/wiki/XMPP#Decentralization_and_addressing
 
 ## Install
 
-`npm install @xmpp/jid` or `yarn add @xmpp/jid`
+`npm install @xmpp-infister/jid` or `yarn add @xmpp-infister/jid`
 
 ## Usage
 
 ```js
-var jid = require('@xmpp/jid')
+var jid = require('@xmpp-infister/jid')
 
 /*
  * All return an instance of jid.JID

@@ -4,12 +4,12 @@ XMPP error abstraction for JavaScript.
 
 ## Install
 
-`npm install @xmpp/error` or `yarn add @xmpp/error`
+`npm install @xmpp-infister/error` or `yarn add @xmpp-infister/error`
 
 ## Usage
 
 ```js
-const XMPPError = require('@xmpp/error')
+const XMPPError = require('@xmpp-infister/error')
 
 const error = new XMPPError('service-unavailable', 'optional text', element)
 error instanceof Error // true

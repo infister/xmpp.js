@@ -1,8 +1,8 @@
 # reconnect
 
-Auto reconnect for `@xmpp/client` and `@xmpp/component`.
+Auto reconnect for `@xmpp-infister/client` and `@xmpp-infister/component`.
 
-Included and enabled in `@xmpp/component` and `@xmpp/client`.
+Included and enabled in `@xmpp-infister/component` and `@xmpp-infister/client`.
 
 Supports Node.js and browsers.
 

@@ -1,8 +1,8 @@
 'use strict'
 
 const tls = require('tls')
-const {parseURI} = require('@xmpp/connection/lib/util')
-const ConnectionTCP = require('@xmpp/connection-tcp')
+const {parseURI} = require('@xmpp-infister/connection/lib/util')
+const ConnectionTCP = require('@xmpp-infister/connection-tcp')
 
 class ConnectionTLS extends ConnectionTCP {
   socketParameters(service) {

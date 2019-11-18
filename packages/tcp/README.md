@@ -1,5 +1,5 @@
 # TCP
 
-TCP transport for `@xmpp/client`.
+TCP transport for `@xmpp-infister/client`.
 
-Included and enabled in `@xmpp/client` for Node.js.
+Included and enabled in `@xmpp-infister/client` for Node.js.

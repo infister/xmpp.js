@@ -1,11 +1,11 @@
 'use strict'
 
-const {Component, xml, jid} = require('@xmpp/component-core')
+const {Component, xml, jid} = require('@xmpp-infister/component-core')
 
-const _reconnect = require('@xmpp/reconnect')
-const _middleware = require('@xmpp/middleware')
-const _iqCaller = require('@xmpp/iq/caller')
-const _iqCallee = require('@xmpp/iq/callee')
+const _reconnect = require('@xmpp-infister/reconnect')
+const _middleware = require('@xmpp-infister/middleware')
+const _iqCaller = require('@xmpp-infister/iq/caller')
+const _iqCallee = require('@xmpp-infister/iq/callee')
 
 function component(options) {
   const {password, service, domain} = options

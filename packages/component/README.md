@@ -6,16 +6,16 @@ XMPP server with additional features a component is a good choice.
 
 See [XEP-0114: Jabber Component Protocol](https://xmpp.org/extensions/xep-0114.html) for details.
 
-`@xmpp/component` package includes a minimal set of features to connect /authenticate securely and reliably.
+`@xmpp-infister/component` package includes a minimal set of features to connect /authenticate securely and reliably.
 
 ## Install
 
-`npm install @xmpp/component` or `yarn add @xmpp/component`
+`npm install @xmpp-infister/component` or `yarn add @xmpp-infister/component`
 
 ## Example
 
 ```js
-const {component, xml, jid} = require('@xmpp/component')
+const {component, xml, jid} = require('@xmpp-infister/component')
 
 const xmpp = component({
   service: 'xmpp://localhost:5347',
@@ -50,7 +50,7 @@ xmpp.on('online', async address => {
 })
 
 // Debug
-// See also @xmpp/debug https://github.com/xmppjs/xmpp.js/tree/master/packages/debug
+// See also @xmpp-infister/debug https://github.com/xmppjs/xmpp.js/tree/master/packages/debug
 xmpp.on('status', status => {
   console.debug('🛈', 'status', status)
 })
@@ -123,7 +123,7 @@ xmpp.on('status', status => {
 
 ### Event `error`
 
-Emitted when an error occurs. For connection errors, `xmpp` will reconnect on its own using [@xmpp/reconnect](/packages/reconnect) however a listener MUST be attached to avoid uncaught exceptions.
+Emitted when an error occurs. For connection errors, `xmpp` will reconnect on its own using [@xmpp-infister/reconnect](/packages/reconnect) however a listener MUST be attached to avoid uncaught exceptions.
 
 - `<Error>`
 
@@ -211,4 +211,4 @@ Returns a promise that resolves once the stanza is serialized and written to the
 
 ### xmpp.reconnect
 
-See [@xmpp/reconnect](/packages/reconnect).
+See [@xmpp-infister/reconnect](/packages/reconnect).

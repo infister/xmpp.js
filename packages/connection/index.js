@@ -1,8 +1,8 @@
 'use strict'
 
-const {EventEmitter, promise} = require('@xmpp/events')
-const jid = require('@xmpp/jid')
-const xml = require('@xmpp/xml')
+const {EventEmitter, promise} = require('@xmpp-infister/events')
+const jid = require('@xmpp-infister/jid')
+const xml = require('@xmpp-infister/xml')
 const StreamError = require('./lib/StreamError')
 const {parseHost, parseService} = require('./lib/util')
 

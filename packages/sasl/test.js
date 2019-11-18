@@ -1,7 +1,7 @@
 'use strict'
 
 const test = require('ava')
-const {mockClient, promise} = require('@xmpp/test')
+const {mockClient, promise} = require('@xmpp-infister/test')
 
 const username = 'foo'
 const password = 'bar'

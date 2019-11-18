@@ -1,10 +1,10 @@
 'use strict'
 
 const context = require('./context')
-const xml = require('@xmpp/xml')
-const jid = require('@xmpp/jid')
+const xml = require('@xmpp-infister/xml')
+const jid = require('@xmpp-infister/jid')
 const mockClient = require('./mockClient')
-const {delay, promise, timeout} = require('@xmpp/events')
+const {delay, promise, timeout} = require('@xmpp-infister/events')
 
 module.exports.context = context
 module.exports.xml = xml

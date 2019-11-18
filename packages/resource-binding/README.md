@@ -1,8 +1,8 @@
 # resource-binding
 
-Resource binding for `@xmpp/client`.
+Resource binding for `@xmpp-infister/client`.
 
-Included and enabled in `@xmpp/client`.
+Included and enabled in `@xmpp-infister/client`.
 
 ## Usage
 
@@ -11,7 +11,7 @@ Resource is optional and will be chosen by the server if omitted.
 ### string
 
 ```js
-const {xmpp} = require('@xmpp/client')
+const {xmpp} = require('@xmpp-infister/client')
 const client = xmpp({resource: 'laptop'})
 ```
 
@@ -27,7 +27,7 @@ Uses cases:
 - Perform an asynchronous operation to get the resource
 
 ```js
-const {xmpp} = require('@xmpp/client')
+const {xmpp} = require('@xmpp-infister/client')
 const client = xmpp({resource: bindResource})
 
 async function bindResource(bind) {

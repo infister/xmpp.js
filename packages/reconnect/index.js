@@ -1,6 +1,6 @@
 'use strict'
 
-const {EventEmitter} = require('@xmpp/events')
+const {EventEmitter} = require('@xmpp-infister/events')
 
 class Reconnect extends EventEmitter {
   constructor(entity) {

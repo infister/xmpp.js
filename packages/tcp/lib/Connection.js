@@ -1,6 +1,6 @@
 'use strict'
 
-const Connection = require('@xmpp/connection-tcp')
+const Connection = require('@xmpp-infister/connection-tcp')
 
 class ConnectionTCP extends Connection {
   socketParameters(service) {

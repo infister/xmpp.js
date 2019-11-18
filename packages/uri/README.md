@@ -8,13 +8,13 @@ Only parsing is supported at the moment.
 ## Install
 
 ```
-npm install @xmpp/uri
+npm install @xmpp-infister/uri
 ```
 
 ## Usage
 
 ```javascript
-const URI = require('@xmpp/uri')
+const URI = require('@xmpp-infister/uri')
 
 URI.parse('xmpp://guest@example.com/support@example.com/truc?message;subject=Hello%20World')
 

@@ -2,8 +2,8 @@
 
 const test = require('ava')
 const Connection = require('..')
-const {EventEmitter, promise, timeout} = require('@xmpp/events')
-const xml = require('@xmpp/xml')
+const {EventEmitter, promise, timeout} = require('@xmpp-infister/events')
+const xml = require('@xmpp-infister/xml')
 
 test('resets properties on socket close event', t => {
   const conn = new Connection()

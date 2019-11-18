@@ -6,13 +6,13 @@ Sensitive information (authentication) is replaced with `<hidden xmlns="xmpp.js"
 
 ## Install
 
-`npm install @xmpp/debug` or `yarn add @xmpp/debug`
+`npm install @xmpp-infister/debug` or `yarn add @xmpp-infister/debug`
 
 ## Example
 
 ```js
-const {client} = require('@xmpp/client') // or component, ...
-const debug = require('@xmpp/debug')
+const {client} = require('@xmpp-infister/client') // or component, ...
+const debug = require('@xmpp-infister/debug')
 const xmpp = client(...)
 debug(xmpp, true)
 ```
