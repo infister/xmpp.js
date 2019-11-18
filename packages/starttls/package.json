@@ -11,7 +11,7 @@
     "STARTTLS"
   ],
   "dependencies": {
-    "@xmpp-infister/xml": "^0.8.0"
+    "@xmpp-infister/xml": "^0.9.2"
   },
   "engines": {
     "node": ">= 10.0.0",

@@ -11,10 +11,10 @@
     "connection"
   ],
   "dependencies": {
-    "@xmpp-infister/error": "^0.8.0",
-    "@xmpp-infister/events": "^0.8.0",
-    "@xmpp-infister/jid": "^0.8.0",
-    "@xmpp-infister/xml": "^0.8.0"
+    "@xmpp-infister/error": "^0.9.2",
+    "@xmpp-infister/events": "^0.9.2",
+    "@xmpp-infister/jid": "^0.9.2",
+    "@xmpp-infister/xml": "^0.9.2"
   },
   "engines": {
     "node": ">= 10.0.0",

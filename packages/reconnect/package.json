@@ -11,7 +11,7 @@
     "reconnect"
   ],
   "dependencies": {
-    "@xmpp-infister/events": "^0.8.0"
+    "@xmpp-infister/events": "^0.9.2"
   },
   "engines": {
     "node": ">= 10.0.0",

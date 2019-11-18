@@ -11,8 +11,8 @@
     "sasl"
   ],
   "dependencies": {
-    "@xmpp-infister/error": "^0.8.0",
-    "@xmpp-infister/xml": "^0.8.0",
+    "@xmpp-infister/error": "^0.9.2",
+    "@xmpp-infister/xml": "^0.9.2",
     "js-base64": "^2.5.1",
     "saslmechanisms": "^0.1.1"
   },
