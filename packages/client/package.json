@@ -3,7 +3,7 @@
   "repository": "github:infister/xmpp.js",
   "homepage": "http://github.com/infister/xmpp.js",
   "bugs": "http://github.com/infister/xmpp.js/issues",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "license": "ISC",
   "dependencies": {
     "@xmpp-infister/client-core": "^0.8.0",
