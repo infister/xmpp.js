@@ -17,10 +17,10 @@
     "yarn": ">= 1.0.0"
   },
   "dependencies": {
-    "@xmpp-infister/events": "^0.9.2",
-    "@xmpp-infister/id": "^0.9.2",
-    "@xmpp-infister/middleware": "^0.9.2",
-    "@xmpp-infister/xml": "^0.9.2"
+    "@xmpp-infister/events": "^0.9.3",
+    "@xmpp-infister/id": "^0.9.3",
+    "@xmpp-infister/middleware": "^0.9.3",
+    "@xmpp-infister/xml": "^0.9.3"
   },
   "devDependencies": {
     "@xmpp-infister/middleware": "^0.3.0"
