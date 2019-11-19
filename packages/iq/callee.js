@@ -78,9 +78,9 @@ function iqHandler(entity) {
       reply = buildError('cancel', 'internal-server-error')
     }
 
-    if (!reply) {
-      reply = buildError('cancel', 'service-unavailable')
-    }
+    // if (!reply) {
+      // reply = buildError('cancel', 'service-unavailable')
+    // }
 
     if (reply instanceof xml.Element && reply.is('error')) {
       return buildReplyError(ctx, reply, child)
