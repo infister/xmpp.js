@@ -3,7 +3,7 @@
   "repository": "github:infister/xmpp.js",
   "homepage": "http://github.com/infister/xmpp.js",
   "bugs": "http://github.com/infister/xmpp.js/issues",
-  "version": "0.9.3",
+  "version": "0.9.4",
   "license": "ISC",
   "dependencies": {
     "@xmpp-infister/client-core": "^0.9.3",
@@ -12,7 +12,7 @@
     "@xmpp-infister/reconnect": "^0.9.3",
     "@xmpp-infister/resolve": "^0.9.3",
     "@xmpp-infister/resource-binding": "^0.9.3",
-    "@xmpp-infister/sasl": "^0.9.3",
+    "@xmpp-infister/sasl": "^0.9.4",
     "@xmpp-infister/sasl-anonymous": "^0.9.3",
     "@xmpp-infister/sasl-plain": "^0.9.3",
     "@xmpp-infister/sasl-scram-sha-1": "^0.9.3",
