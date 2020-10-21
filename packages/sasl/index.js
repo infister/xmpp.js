@@ -62,11 +62,16 @@ async function authenticate(SASL, entity, mechname, credentials) {
     entity.on('nonza', handler)
 
     if (mech.clientFirst) {
+      let authorization = await mech.response(creds)
+      if (typeof authorization === 'undefined') {
+        reject()
+      }
+
       entity.send(
         xml(
           'auth',
           {xmlns: NS, mechanism: mech.name},
-          encode(await mech.response(creds))
+          encode(authorization)
         )
       )
     }
